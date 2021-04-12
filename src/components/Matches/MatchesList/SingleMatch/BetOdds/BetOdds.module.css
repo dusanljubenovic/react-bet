@@ -1,0 +1,48 @@
+.SiteOddsHolder{
+    display:flex;
+    justify-content: space-between;
+    border-top:1px solid #ccc;
+
+}
+
+.SiteOddsHolderMain{
+    display:flex;
+    justify-content: space-between;
+    background-color:#f2f2f2;
+
+ 
+}
+
+.Site{
+    color:#000000;
+    padding:0px 10px;
+    font-size:14px;
+}
+
+.SiteBookmakers{
+    color:#000000;
+    font-weight:bold;
+    padding:0px 10px;
+    font-size:14px;
+    text-transform: capitalize;
+}
+
+
+.Odds{
+    width:120px;
+    display:flex;
+
+}
+
+.Odds span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.SelectedItem{
+  background-color:#ffe6e6;
+}

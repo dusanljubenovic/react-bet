@@ -1,0 +1,56 @@
+.Input {
+    width: calc(50% - 10px);
+    padding: 0px;
+    box-sizing: border-box;
+    margin-right:10px;
+}
+
+.Label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.InputElement {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: #f2f4f6!important;
+    font: inherit;
+    padding: 8px 16px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+}
+
+.InputElement:focus {
+    outline: none;
+    background-color: #f2f4f6;
+}
+
+.Invalid {
+    border: 1px solid red;
+    background-color: #FDA49A;
+}
+
+.InputElement::-webkit-input-placeholder {
+    color: #19193b;
+}
+
+.InputElement:-ms-input-placeholder {
+    color: #19193b;
+}
+
+.InputElement::-moz-placeholder {
+    color: #19193b;
+}
+
+.Label{
+    color:#fff200;
+    background-color:#000000;
+    margin:0px;
+    padding:5px 10px;
+}
+
+

@@ -1,0 +1,85 @@
+.my-node-enter {
+    opacity: 0;
+  }
+  .my-node-enter-active {
+    opacity: 1;
+    transition: opacity 4000ms;
+  }
+  .my-node-exit {
+    opacity: 1;
+  }
+  .my-node-exit-active {
+    opacity: 1;
+    transition: opacity 4000ms;
+  }
+
+
+
+  .Modal {
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 0.3s linear;
+    margin:1px 15px 0px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.3);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .ModalOpen {
+    animation: openModal 0.4s linear forwards;
+  }
+  
+  .ModalClosed {
+    animation: closeModal 0.4s linear forwards;
+  }
+  
+  .fade-slide-enter{
+  
+  }
+  
+  .fade-slide-enter-active{
+    animation: openModal 0.4s linear forwards;
+  }
+  
+  .fade-slide-exit{
+    
+  }
+  
+  .fade-slide-exit-active{
+    animation: closeModal 0.4s linear forwards;
+  }
+  
+  
+  
+  
+  @keyframes openModal {
+    0% {
+        opacity: 0;
+      
+    }
+    50% {
+      opacity: 0.5;
+ 
+    }
+    100% {
+        opacity: 1;
+      
+    }
+  }
+  
+  @keyframes closeModal {
+    0% {
+        opacity: 1;
+     
+    }
+    50% {
+      opacity: 0.5;
+
+    }
+    100% {
+        opacity: 0;
+  
+    }
+  }
+  
+  

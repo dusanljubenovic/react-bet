@@ -1,0 +1,16 @@
+.Form{
+  display:flex;
+}
+
+.ButtonApplyFilter{
+  width:calc(50% - 10px);
+  margin-left:10px;
+}
+
+.ButtonApplyFilter button{
+width:100%;
+border-radius:0px;
+background-color:#000000;
+border-color:#000000;
+border-radius: 5px;
+}

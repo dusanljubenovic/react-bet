@@ -1,0 +1,31 @@
+.MatchesHolder{
+        margin:0px 10px 0px 0px;
+        width:calc(50% - 10px);
+        border:4px dashed #ccc;   
+        padding:20px;
+        border-radius:5px;
+}
+
+.EmptyList{
+   color:#818181;
+}
+
+
+
+@media screen and (max-width: 1190px) {
+
+        .MatchesHolder{
+                margin:0px 0px 0px 0px;
+                width:100%;
+        }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+        .MatchesHolder{
+              padding:10px;
+        }
+
+}

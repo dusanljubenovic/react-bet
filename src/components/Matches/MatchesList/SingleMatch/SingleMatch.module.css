@@ -1,0 +1,80 @@
+.MatchesHolder{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.3);
+  margin-top:10px;
+  border-radius:30px;
+  padding:2px;
+}
+
+.Matches:nth-child(2n+1) .MatchesHolder{
+
+}
+
+.Matches:nth-child(2n) .MatchesHolder{
+
+}
+
+.MatchesGame{
+padding:0px 15px 0px 10px;
+font-size: 14px;
+}
+
+.MatchesOdds{
+    display: flex;
+    align-items: center;
+}
+
+.MatchesOdds strong{
+  color:#000000;
+  text-align: center;
+}
+
+.MatchesOdds span{
+  width: 28px;
+  height: 28px;
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 100%;
+  color: #000000;
+  background-color: #ccc;
+}
+
+
+
+.Matches:nth-child(1) .MatchesHolder {
+margin-top:0px;
+}
+
+.MatchesLeft{
+ display:flex;
+ align-items: center;
+}
+
+.MatchesFlag{
+  line-height: 0px;
+}
+
+.MatchesFlag img{
+   border-radius: 100%;
+   max-width:30px;
+   width:100%;
+   border:2px solid #fff;
+ }
+
+
+ @media screen and (max-width: 480px) {
+
+  .MatchesGame{
+    flex:1;
+    font-size:12px;
+  }
+  .MatchesOdds strong{
+    font-size:12px;
+  }
+
+ }

@@ -1,0 +1,217 @@
+.App{
+    max-width:1200px;
+    width:100%;
+    margin: 0 auto;
+}
+
+.TicketHolder{
+ margin:0px 0px 0px 10px;
+ width:calc(50% - 10px);
+ padding:20px;
+ border:4px dashed #ccc;
+}
+
+
+.TicketSingleMatch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.3);
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+
+
+.TicketSingleRemove{
+    width: 28px;
+    height: 28px;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 100%;
+    color: #000000;
+    background-color: #ccc;
+}
+
+.TicketSingleOdd{
+  font-size:14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  margin-left: 5px;
+
+}
+
+.TicketSingleType{
+    font-size:14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#000000;
+    width: 20px;
+    margin-left: 5px;
+}
+
+.TicketSingleBookmaker{
+  font-size:14px;
+    display: flex;
+    align-items: center;
+}
+
+.TicketSingleFlag img{
+    border-radius: 100%;
+    max-width: 30px;
+    width: 100%;
+    border: 2px solid #fff;
+}
+
+
+
+.TicketSingleTeam{
+    width:300px;
+    padding:0px 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px 0px 10px;
+    font-size: 14px;
+}
+
+.MatchTicketHolder{
+ display:flex;
+ justify-content: center;
+}
+
+
+
+.FilterFormHolder{
+  width:calc(50% - 10px);
+  margin:50px 10px 20px 0px;
+  border:4px dashed #ccc;
+  padding:20px;
+}
+
+.TicketSingleLeft{
+    display:flex;
+    align-items: center;
+    flex:1;
+}
+
+.TicketSingleRight{
+    display:flex;
+    align-items: center;
+}
+
+.TicketSingleFlag{
+    line-height: 0px;
+}
+
+.TicketSingleMatchHeader{
+display:flex;
+justify-content: flex-end;
+margin-right: 35px;
+}
+
+.TicketSingleMatchHeaderOdd{
+    font-size:14px;
+    cursor: pointer;
+}
+
+.EmptyTicket{
+    color: #818181;
+}
+
+
+@media screen and (max-width: 1300px) {
+
+    .App{
+        max-width: 100%;
+        padding: 0px 50px;
+    }
+
+}
+
+@media screen and (max-width: 1190px) {
+
+    .App{
+        max-width: 600px;
+        padding: 0px 0px;
+    }
+
+    .FilterFormHolder{
+        width:100%;
+        margin:50px 0px 20px 0px;
+    }
+
+    .MatchTicketHolder{
+        flex-direction: column;
+       }
+
+       .TicketHolder{
+        margin:20px 0px 0px 0px;
+        width:100%;
+       }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .App{
+        max-width: 450px;
+    }
+
+    .TicketSingleTeam{
+        width:200px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .App{
+        max-width: 320px;
+    }
+
+    .MatchesLeft{
+        flex:1;
+    }
+
+    .MatchesOdds{
+        width:85px;
+    }
+
+    .TicketSingleTeam{
+     font-size:12px;
+     width:120px;
+     }
+     
+     .TicketSingleOdd{
+         width:15px;
+         font-size:12px;
+     }
+     .TicketSingleType{
+        width:10px;
+        font-size:12px;
+     }
+     .TicketSingleBookmaker{
+         font-size:12px;
+     }
+
+     .TicketSingleFlag{
+         width:30px;
+     }
+     .TicketSingleRemove{
+         margin-left:5px;
+     }
+
+     .FilterFormHolder,
+     .TicketHolder{
+         padding:10px;
+     }
+
+
+}
