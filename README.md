@@ -15,6 +15,6 @@ Download or clone main branch. In the project directory run:
 <code>npm install</code><br>
 <code>npm start</code>
  
-This runs the app in the development mode.
-Open http://localhost:3000 to view it in the browser.
+This runs the app in the development mode.<br>
+Open http://localhost:3000 to view it in the browser.<br>
 Note: In file src/store/actions/match.js need to change 'x-rapidapi-key' with your own key https://prnt.sc/11b29va
